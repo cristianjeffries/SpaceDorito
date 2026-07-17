@@ -1,0 +1,16 @@
+# PICO-8 exports (regenerated from the .p8 cart)
+*.p8.png
+*.html
+*.js
+*.bin.zip
+*.app.zip
+export/
+exports/
+
+# PICO-8 backups / autosave
+*.bak
+backup/
+
+# OS cruft
+.DS_Store
+Thumbs.db
