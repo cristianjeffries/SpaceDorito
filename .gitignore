@@ -1,4 +1,5 @@
-# PICO-8 exports (regenerated from the .p8 cart)
+# PICO-8 exports (regenerated from the .p8 cart).
+# Ignored everywhere EXCEPT docs/, which is the published GitHub Pages build.
 *.p8.png
 *.html
 *.js
@@ -6,6 +7,10 @@
 *.app.zip
 export/
 exports/
+
+# Keep the hosted web build under docs/
+!docs/
+!docs/**
 
 # PICO-8 backups / autosave
 *.bak
